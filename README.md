@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🐘 PHP Aprendizado do Jhonata
 
 Bem-vindo ao meu repositório de estudos em **PHP**!  
@@ -52,3 +53,7 @@ Caso queira me acompanhar ou trocar ideia:
 
 - 📧 jhonatapereira28@hotmail.com
 - 💼 [LinkedIn](https://www.linkedin.com/in/jhonata-lima-191109b8/)
+=======
+# php-aprendizado
+Repositório com meus estudos e desafios em PHP
+>>>>>>> d7c4a5bf7f094087f5d2db92ab9ac49fe7bc7220
