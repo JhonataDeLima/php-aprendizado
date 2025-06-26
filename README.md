@@ -34,7 +34,7 @@ Este repositório está organizado por temas e desafios:
 ✔️ Funções  
 ✔️ Arrays simples e associativos  
 ✔️ `foreach`  
-🔜 Formulários com `POST` e `GET`  
+✔️ Formulários com `POST` e `GET`  
 🔜 Validações  
 🔜 CRUD com banco de dados  
 
