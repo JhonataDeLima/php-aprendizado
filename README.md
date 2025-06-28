@@ -8,13 +8,13 @@ Aqui estou documentando minha jornada, desde o básico até conceitos mais avan�
 
 Este repositório está organizado por temas e desafios:
 
-| Pasta         | Conteúdo                                             |
-|---------------|------------------------------------------------------|
-| `desafios/`   | Desafios práticos resolvidos com base no aprendizado |
-| `funcoes/`    | Exemplos e exercícios com funções em PHP             |
-| `arrays/`     | Lógica usando arrays e loops                         |
-| `formulario/` | Primeiros testes com formulários e entrada de dados |
-
+| Pasta                   | Conteúdo                                                                  |
+|-------------------------|---------------------------------------------------------------------------|
+| `desafios/`             | Desafios práticos resolvidos com base no aprendizado                      |
+| `funcoes/`              | Exemplos e exercícios com funções em PHP                                  |
+| `arrays/`               | Lógica usando arrays e loops                                              |
+| `formulario/`           | Primeiros testes com formulários e entrada de dados                       |
+| `formulario-funcional/` | Formulário com validações, funções reutilizáveis e exibição de resultados |
 ---
 
 ## 🚀 Objetivos
