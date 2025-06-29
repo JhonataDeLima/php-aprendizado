@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+form, .resultado{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+.erro {
+    color: red;
+}
+
+.sucesso {
+    color: green;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+}
