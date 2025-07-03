@@ -8,14 +8,13 @@ Aqui estou documentando minha jornada, desde o básico até conceitos mais avan�
 
 Este repositório está organizado por temas e desafios:
 
-| Pasta                   | Conteúdo                                                                         |
-|-------------------------|----------------------------------------------------------------------------------|
-| `desafios/`             | Desafios práticos resolvidos com base no aprendizado                             |
-| `funcoes/`              | Exemplos e exercícios com funções em PHP                                         |
-| `arrays/`               | Lógica usando arrays e loops                                                     |
-| `formulario/`           | Primeiros testes com formulários e entrada de dados                              |
-| `formulario-funcional/` | Formulário com validações, funções reutilizáveis e exibição de resultados        |
-| `formulario-pro/`       | Formulário completo com validações, sessão e exibição dinâmica dos dados com CSS |
+| Pasta                   | Conteúdo                                                                          |
+|-------------------------|-----------------------------------------------------------------------------------|
+| `desafios/`             | Desafios práticos resolvidos com base no aprendizado                              |
+| `formulario/`           | Primeiros testes com formulários e entrada de dados                               |
+| `formulario-funcional/` | Formulário com validações, funções reutilizáveis e exibição de resultados         |
+| `formulario-pro/`       | Formulário completo com validações, sessão e exibição dinâmica dos dados com CSS  |
+| `ficha-cadastral/`      | Pratica com documentação de funções, parametros nomeados, modularização do codigo |
 ---
 
 ## 🚀 Objetivos
@@ -33,6 +32,7 @@ Este repositório está organizado por temas e desafios:
 ✔️ Variáveis e operadores  
 ✔️ Condicionais (`if`, `else`, ternário)  
 ✔️ Funções  
+✔️ Parametros nomeados, documentação
 ✔️ Arrays simples e associativos  
 ✔️ `foreach`  
 ✔️ Formulários com `POST` e `GET`  
