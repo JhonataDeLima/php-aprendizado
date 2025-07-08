@@ -9,7 +9,11 @@
 
         if($dados["login"] === $usuario_valido && $dados["senha"] === $senha_valida){
             
-            $_SESSION["usuario_logado"] = $dados;
+            $_SESSION["usuario_logado"] = $dados["login"];
+            if(!empty($dados["tema"])){
+                setcookie('tema', $dados["tema"]);
+            }
+
             header("Location: welcome.php");
 
         }else{
@@ -17,4 +21,6 @@
             echo '<br><a href="index.php">voltar</a>';
         }
     }
+
+    
 ?>

@@ -1,6 +1,3 @@
-<?php
-require_once("login.php");
-?>
 <html>
     <head>
         <title>Login</title>
