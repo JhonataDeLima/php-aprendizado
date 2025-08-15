@@ -1,0 +1,15 @@
+{
+    "name": "jhon/biblioteca",
+    "description": "biblioteca oop",
+    "autoload": {
+        "psr-4": {
+            "Jhon\\Biblioteca\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jhonata Lima"
+        }
+    ],
+    "require": {}
+}
