@@ -1,8 +1,9 @@
 <?php
-require_once (__DIR__ . '/../controllers/HomeController.php');
-require_once (__DIR__ . '/../controllers/NoticiasController.php');
-require_once (__DIR__ . '/../controllers/errors/HttpErrorController.php');
 
+namespace App\Core;
+
+use App\Controllers\HomeController;
+use App\Controllers\Errors\HttpErrorController;
 
 
 class Router
@@ -11,8 +12,9 @@ class Router
     {
         $url = trim($url, '/');
         $parts = $url ? explode('/', $url) : [];
-        $controllerName = $parts[0] ?? 'Home';
-        $controllerName = ucfirst($controllerName) . 'Controller';
+        
+        $controllerName =  $parts[0] ?? 'Home';
+        $controllerName = 'App\Controllers\\' . ucfirst($controllerName) . 'Controller';
         
         
         if(!class_exists($controllerName)){
