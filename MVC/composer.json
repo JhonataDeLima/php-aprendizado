@@ -1,0 +1,11 @@
+{
+    "name": "jhon/mvc",
+    "description": "MVC Structure",
+    "authors": [
+        {
+            "name": "JhonadaDeLima",
+            "email": "jhonatapereira28@gmail.com"
+        }
+    ],
+    "require": {}
+}
