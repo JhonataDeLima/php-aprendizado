@@ -2,7 +2,6 @@
 
 namespace App\Core;
 
-use App\Controllers\HomeController;
 use App\Controllers\Errors\HttpErrorController;
 
 
@@ -16,7 +15,8 @@ class Router
         $controllerName =  $parts[0] ?? 'Home';
         $controllerName = 'App\Controllers\\' . ucfirst($controllerName) . 'Controller';
         
-        
+        $actionName = $parts[1] ?? 'index';
+      
         if(!class_exists($controllerName)){
             $controller = new HttpErrorController();
             $controller->NotFound();
@@ -24,7 +24,7 @@ class Router
         }
 
         $controller = new $controllerName();
-        $actionName = $parts[1] ?? 'index';
+        
 
         if(!method_exists($controller, $actionName)){
             $controller = new HttpErrorController();
